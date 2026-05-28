@@ -5,7 +5,7 @@ services:
         restart: always
         working_dir: /var/www
         ports:
-            - "8000:8000"
+            - "80:8000"
         volumes:
             - .:/var/www
         env_file:
